@@ -1,0 +1,117 @@
+body{background-color: gold;
+	padding:0px;
+	margin:0px;
+	border: 0px;
+}
+h1 a {text-align: left;
+	font-size: 35px;
+	font-family: 'Cinzel Decorative', cursive;
+	text-decoration: none;
+	color: black;
+	text-shadow: -3px 3px 5px black;
+	padding: 0px 0px 0px 12px;
+	margin-bottom: -0.2em;}
+	
+h1 a:hover {color: #fbd206;}
+	
+h2 {text-align: left;
+	font-size: 12px;
+	font-family: 'Copperplate', cursive;
+	padding: 0px 0px 0px 12px;
+	margin-top: -1em;}
+	
+h3 {text-align: left;
+	font-size: 25px;
+	font-family: copperplate, cursive;}
+
+nav{
+	background-color:gray;
+	height: 35px;
+	width: 100%;
+	font-size:18px;
+	font-weight:bold;
+	font:Tahoma;
+	}
+	
+	nav ul{
+	
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	text-align:center;
+	}
+	
+	nav li{
+	display: inline;
+	padding:15px;
+	vertical-align:middle;
+	}
+	
+	nav a{
+	
+	text-decoration:none;
+	padding: 8px 8px 8px 8px;
+	color:black;
+	vertical-align:middle;
+	}
+	
+	nav a:hover{
+	color: black;
+	background-color: yellow;
+	padding:0px;
+	margin:0px;
+	border: 0px;
+	}	
+	.ourstory {margin-top: 150px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	.contactus {margin-top: 150px;
+		margin-left: 20px;
+	}
+	.button {background-color: black;
+		border: none;
+		color: gold;
+		padding: 15px 35px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font: 16px;
+		margin: 8px 5px;
+		cursor: pointer;
+		font-family: 'copperplate', cursive;
+	}
+	video, embed {float: middle; padding-left: 20px;}
+#gallery {position: relative;
+		  height: 200px;}
+#gallery ul {list-style-type: none;
+			 width: 300px;}
+#gallery li {display: inline;
+			 padding: 10px}
+#gallery img {border-style: none;}
+#gallery a {text-decoration: none;
+			font-style: italic;
+			color: #000000;
+}
+#gallery span {position: absolute;
+			   left: -1000px;
+			   opacity: 0;
+			   transition: opacity 3s ease-in-out;}
+#gallery a:hover span {
+			position: absolute;
+			top: 16px;
+			left: 320px;
+			opacity: 1;}
+		
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
